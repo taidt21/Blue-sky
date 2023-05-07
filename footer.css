@@ -373,4 +373,16 @@ footer {
     .footer-bottom .container {
         padding: 10px;
     }
+
+    .footer-col-3 {
+        -webkit-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+    }
+
+    .footer-col-4 {
+        -webkit-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+    }
 }
