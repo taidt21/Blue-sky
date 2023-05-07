@@ -115,7 +115,7 @@
     border-radius: 100px;
     text-transform: uppercase;
     width: -webkit-fit-content;
-
+    text-align: center;
     width: -moz-fit-content;
 
     width: fit-content;
@@ -171,5 +171,6 @@
 
     .section-3 .read-more {
         padding: 13px 45px;
+        width: 165px;
     }
 }
