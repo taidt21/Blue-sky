@@ -1,0 +1,226 @@
+@import url('./style.css');
+
+.section-1 {
+    padding: 31px 30px;
+    padding-bottom: 0;
+}
+
+.swiper {
+    width: 100%;
+    margin: auto;
+
+    height: 41.5625vw;
+}
+
+
+.swiper-slide {
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: grab;
+
+}
+
+.swiper-slide-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.swiper-slide-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    height: 100%;
+}
+
+.swiper-slide-bg img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+}
+
+.swiper-slide-text {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+
+}
+
+.swiper-slide-title {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 121.5px;
+    margin: 10px 0;
+}
+
+.swiper-slide-description-1 {
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 17.55px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+.swiper-slide-description-2 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.swiper-slide-button {
+    margin: auto;
+    margin-top: 50px;
+    padding: 18.5px 53.5px;
+    color: var(--title-color);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.55px;
+
+    border-radius: 30px;
+    background-color: #fff;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-transform: uppercase;
+
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFF), to(#FFFFFF)), -webkit-gradient(linear, left bottom, left top, from(#EBEBEB), to(#EBEBEB));
+    background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF), -o-linear-gradient(bottom, #EBEBEB, #EBEBEB);
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #EBEBEB, #EBEBEB);
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+
+}
+
+.swiper-button-next img, .swiper-button-prev img {
+    width: 13px;
+    height: 13px;
+    z-index: 5;
+    position: relative;
+    background-color: transparent;
+
+    -webkit-filter: brightness(0) saturate(100%) invert(0%) sepia(3%) saturate(5316%) hue-rotate(16deg) brightness(69%) contrast(87%);
+
+    filter: brightness(0) saturate(100%) invert(0%) sepia(3%) saturate(5316%) hue-rotate(16deg) brightness(69%) contrast(87%);
+}
+
+.swiper-button-next {
+    right: 30px;
+}
+
+.swiper-button-prev {
+    left: 30px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.swiper-button-next:hover::after, .swiper-button-prev:hover::after {
+    background: #111;
+    opacity: 1;
+}
+
+.swiper-button-next:hover img, .swiper-button-prev:hover img {
+    -webkit-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(20deg) brightness(101%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(20deg) brightness(101%) contrast(101%);
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 20%;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+
+
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.swiper-pagination {
+    top: unset !important;
+    bottom: 30px !important;
+    height: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media(max-width:1050px) {
+    .swiper-slide-title {
+        font-size: 7vw;
+        line-height: 1.5;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 35px;
+        height: 35px;
+    }
+
+    .swiper-slide-button {
+        padding: 14px 40px;
+    }
+
+
+
+
+}
+
+@media(max-width:768px) {
+    .swiper {
+        height: 55vw;
+    }
+
+    .swiper-pagination {
+        bottom: 15px !important;
+    }
+}
+
+@media(max-width:576px) {
+    .section-1 {
+        padding: 31px 16px;
+        padding-bottom: 0;
+    }
+
+    .swiper {
+        height: 100vw;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+}

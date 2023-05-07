@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UMINO</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="section-1.css">
+        <link rel="stylesheet" href="section-2.css">
+        <link rel="stylesheet" href="section-3.css">
+        <link rel="stylesheet" href="section-4.css">
+        <link rel="stylesheet" href="section-5.css">
+        <link rel="stylesheet" href="section-6.css">
+        <link rel="stylesheet" href="footer.css">
+    </head>
+    <body>
+        <header id="header">
+            <div class="top-bar">
+                <div class="top-bar_col-1">
+                    <a href="tel:222-1800-2628">+222-1800-2628</a>
+                    <a href="mailto:blueskytechcompany@gmail.com">blueskytechcompany@gmail.com</a>
+                </div>
+                <div class="top-bar_col-2">
+                    <span class="top-bar_col-2_text">Sign up for 10% off your
+                        first order:</span>
+                    <a href="#" class="top-bar_col-2_link">Sign Up</a>
+                </div>
+                <div class="top-bar_col-3">
+                    <ul class="top-bar_col-3_list-turn">
+                        <li class="list-turn-item">
+                            <a href="#">Our Stores</a>
+                        </li>
+                        <li class="list-turn-item">
+                            <a href="#">
+                                <span class="list-turn-item_text">English</span>
+                                <span class="list-turn-item_icon">
+                                    <img src="./img/arrow-down.svg" alt="arrow
+                                        down">
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-turn-item">
+                            <a href="#">
+                                <span class="list-turn-item_text">United States
+                                    (USD $)</span>
+                                <span class="list-turn-item_icon">
+                                    <img src="./img/arrow-down.svg" alt="arrow
+                                        down">
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <div class="nav-bar_logo">
+                    <a href="/">
+                        <img src="./img/Logo.png" alt="UMINO">
+                    </a>
+                </div>
+                <ul class="nav-bar_menu">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            <span class="nav-link_text">Home</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Shop</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Product</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Page</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Blog</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Buy Umino!</span>
+
+                        </a>
+                    </li>
+
+                </ul>
+                <ul class="nav-icon">
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/search.svg" alt="search icon">
+                        </a>
+                    </li>
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/Login.svg" alt="login icon">
+                        </a>
+                    </li>
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/time.svg" alt="time icon">
+                        </a>
+                    </li>
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/heart.svg" alt="heart icon">
+                            <span class="badge">5</span>
+                        </a>
+
+                    </li>
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/cart.svg" alt="cart icon">
+                            <span class="badge">5</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <button class="toggle">
+                    <span class="line-toggle"></span>
+                    <span class="line-toggle"></span>
+                    <span class="line-toggle"></span>
+                </button>
+            </div>
+            <div class="poppup-tablet">
+                <form action="#" method="post" class="poppup-search_mobile">
+                    <input type="text" name="search" id="search"
+                        placeholder="Search..." required>
+                    <button type="submit" class="btn-search">
+                        <img src="./img/searchBTN.png" alt="btn Search">
+                    </button>
+                </form>
+                <ul class="list-icon-mobile">
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/Login.svg" alt="login">
+
+                        </a>
+                    </li>
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/time.svg" alt="time">
+                        </a>
+                    </li>
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/heart.svg" alt="heart icon">
+                            <span class="badge">5</span>
+                        </a>
+                    </li>
+                    <li class="nav-icon_item">
+                        <a href="#">
+                            <img src="./img/cart.svg" alt="cart icon">
+                            <span class="badge">5</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <ul class="nav-bar_menu-tablet">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            <span class="nav-link_text">Home</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Shop</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Product</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Page</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Blog</span>
+                            <span class="nav-link_icon">
+                                <img src="./img/arrow-down.svg"
+                                    alt="arrow-down">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-link_text">Buy Umino!</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="poppup-turn">
+                    <ul class="poppup-list_turn">
+                        <li class="list-turn-item">
+                            <a href="#">Our Stores</a>
+                        </li>
+                        <li class="list-turn-item">
+                            <a href="#">
+                                <span>English</span>
+                                <span>
+                                    <img src="./img/arrow-down.svg" alt="">
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-turn-item">
+                            <a href="#">
+                                <span>
+                                    United States (USD $)
+                                </span>
+                                <span>
+                                    <img src="./img/arrow-down.svg" alt="">
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-turn-item">
+                            <a href="tel:222-1800-2628">+222-1800-2628</a>
+                        </li>
+                        <li class="list-turn-item">
+                            <a href="mailto:blueskytechcompany@gmail.com">blueskytechcompany@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="overlay"></div>
+        </header>
+        <section class="section-1">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-inner">
+                            <div class="swiper-slide-text">
+                                <p class="swiper-slide-description-1">
+                                    Beautiful & Elegant
+                                </p>
+                                <h1 class="swiper-slide-title">Premium Bedroom</h1>
+                                <p class="swiper-slide-description-2">
+                                    Discount 50% On Products & Free Shipping.
+                                </p>
+                                <a href="#" class="swiper-slide-button">Shop Now</a>
+                            </div>
+                            <div class="swiper-slide-bg">
+                                <img src="./img/bg-home.jpg" alt="Premium
+                                    Bedroom">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-inner">
+                            <div class="swiper-slide-text">
+                                <p class="swiper-slide-description-1">
+                                    Beautiful & Elegant
+                                </p>
+                                <h1 class="swiper-slide-title">Premium Bedroom</h1>
+                                <p class="swiper-slide-description-2">
+                                    Discount 50% On Products & Free Shipping.
+                                </p>
+                                <a href="#" class="swiper-slide-button">Shop Now</a>
+                            </div>
+                            <div class="swiper-slide-bg">
+                                <img src="./img/bg-home.jpg" alt="Premium
+                                    Bedroom">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-inner">
+                            <div class="swiper-slide-text">
+                                <p class="swiper-slide-description-1">
+                                    Beautiful & Elegant
+                                </p>
+                                <h1 class="swiper-slide-title">Premium Bedroom</h1>
+                                <p class="swiper-slide-description-2">
+                                    Discount 50% On Products & Free Shipping.
+                                </p>
+                                <a href="#" class="swiper-slide-button">Shop Now</a>
+                            </div>
+                            <div class="swiper-slide-bg">
+                                <img src="./img/bg-home.jpg" alt="Premium
+                                    Bedroom">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev">
+                    <img src="./img/arrow-left.svg" alt="arrow left">
+                </div>
+                <div class="swiper-button-next">
+                    <img src="./img/arrow-right.svg" alt="arrow right">
+                </div>
+
+
+
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="container">
+                <h2 class="title">Top Categories</h2>
+                <p class="description">Our products are designed for everyone,
+                    environmentally friendly.</p>
+                <div class="categorys">
+                    <div class="category-item">
+                        <a href="#">
+                            <span class="category-item_image">
+                                <img src="./img/room.jpg" alt="Living Room">
+                            </span>
+                            <h3 class="category-item_text">Living Room</h3>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="#">
+                            <span class="category-item_image">
+                                <img src="./img/ct2.png" alt="Living Room">
+                            </span>
+                            <h3 class="category-item_text">special bedroom</h3>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="#">
+                            <span class="category-item_image">
+                                <img src="./img/ct3.png" alt="Living Room">
+                            </span>
+                            <h3 class="category-item_text">Dining & Kitchen</h3>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="#">
+                            <span class="category-item_image">
+                                <img src="./img/ct4.png" alt="Living Room">
+                            </span>
+                            <h3 class="category-item_text">Home Accessories</h3>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="#">
+                            <span class="category-item_image">
+                                <img src="./img/ct5.png" alt="Living Room">
+                            </span>
+                            <h3 class="category-item_text">Outdoor</h3>
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href="#">
+                            <span class="category-item_image">
+                                <img src="./img/ct6.png" alt="Living Room">
+                            </span>
+                            <h3 class="category-item_text">Lighting & Decor</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="container">
+                <h2 class="title">
+                    Top Trending
+                </h2>
+                <p class="description">Our products are designed for everyone,
+                    environmentally friendly.</p>
+                <div class="products">
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/ghe.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price">
+                                $569.00
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/binh.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price new-price">
+                                $569.00
+                            </div>
+                            <div class="old-price">
+                                $156.00
+                            </div>
+                        </div>
+                        <div class="product-badge">
+                            <span class="product-badge-1">-50%</span>
+                            <span class="product-badge-2">Pre-Order</span>
+                        </div>
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/ghe2.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price">
+                                $569.00
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/binh2.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price">
+                                $569.00
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/ghe3.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price">
+                                $569.00
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/bongden.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price">
+                                $569.00
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/denban.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price">
+                                $569.00
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/ghe4.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price new-price">
+                                $569.00
+                            </div>
+                            <div class="old-price">
+                                $156.00
+                            </div>
+                        </div>
+                        <div class="product-badge">
+                            <span class="product-badge-1">-50%</span>
+                            <span class="product-badge-2">Pre-Order</span>
+                        </div>
+                    </div>
+                    <div class="product-item">
+
+                        <a class="product-image" href="#">
+                            <img src="./img/ghe4.jpg" alt="Form Chair Brass
+                                Base">
+                        </a>
+                        <a href="#">
+                            <h3 class="product-text">Form Chair Brass Base</h3>
+                        </a>
+                        <div class="product-rating">
+                            <img src="./img/rate.svg" alt="rating">
+                        </div>
+                        <div class="product-price">
+                            <div class="current-price new-price">
+                                $569.00
+                            </div>
+                            <div class="old-price">
+                                $156.00
+                            </div>
+                        </div>
+                        <div class="product-badge">
+                            <span class="product-badge-1">-50%</span>
+                            <span class="product-badge-2">Pre-Order</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="read-more">Load More</a>
+            </div>
+        </section>
+        <section class="section-4">
+            <div>
+                <div class="container">
+
+                    <div class="box-special">
+                        <span class="description-1">LIMITED EDITION</span>
+                        <h2 class="title">Unique Style</h2>
+                        <p class="description">The watch is carefully designed
+                            with
+                            quality materials, such as the domed sapphire
+                            crystal,
+                            and the meticulous level of detail - from the dial
+                            to
+                            the delicate gold hour markers.</p>
+                        <a href="#" class="box-special_btn">Discover Now</a>
+                    </div>
+                    <div class="image-box-mobile">
+                        <img src="./img/bgsection-4.jpg" alt="background">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-5">
+            <div class="container">
+                <div class="policys">
+                    <div class="policy-item">
+                        <div class="policy-icon">
+                            <img src="./img/box1.svg" alt="Free Shipping">
+                        </div>
+                        <div class="policy-text">
+                            <h3>Free Shipping</h3>
+                            <p class="policy-description">Get complimentary
+                                ground shipping on every order.
+                                Don't love it? Send it back, on us.</p>
+                        </div>
+                    </div>
+                    <div class="policy-item">
+                        <div class="policy-icon">
+                            <img src="./img/box2.svg" alt="Free Returns">
+                        </div>
+                        <div class="policy-text">
+                            <h3>Free Returns</h3>
+                            <p class="policy-description">Free returns within 10
+                                days, please make sure the
+                                items are in undamaged condition.</p>
+                        </div>
+                    </div>
+                    <div class="policy-item">
+                        <div class="policy-icon">
+                            <img src="./img/box3.svg" alt="Support Online">
+                        </div>
+                        <div class="policy-text">
+                            <h3>Support Online</h3>
+                            <p class="policy-description">We support customers
+                                24/7, send questions we will
+                                solve for you immediately.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-6">
+            <div class="container">
+                <h2 class="title">Follow Us</h2>
+                <p class="description">Inspire and let yourself be inspired,
+                    from one unique fashion to another.</p>
+                <div class="follows">
+                    <div class="follow-item">
+                        <img src="./img/bg1.png" alt="image">
+                        <a href="#" class="add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="cart">
+                        </a>
+                    </div>
+                    <div class="follow-item">
+                        <img src="./img/bg2.png" alt="image">
+                        <a href="#" class="add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="cart">
+                        </a>
+                    </div>
+                    <div class="follow-item">
+                        <img src="./img/bg3.png" alt="image">
+                        <a href="#" class="add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="cart">
+                        </a>
+                    </div>
+                    <div
+                        class="follow-item">
+                        <img src="./img/bg4.png" alt="image">
+                        <a href="#" class="add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="cart">
+                        </a>
+                    </div>
+                    <div class="follow-item">
+                        <img src="./img/bg5.png" alt="image">
+                        <a href="#" class="add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="cart">
+                        </a>
+                    </div>
+                    <div class="follow-item">
+                        <img src="./img/bg6.png" alt="image">
+                        <a href="#" class="add-to-cart">
+                            <img src="./img/cart-icon.svg" alt="cart">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="main-footer">
+                <div class="container">
+                    <div class="footer-col-1">
+                        <div class="footer-col-1_logo">
+                            <img src="./img/Logo.png" alt="UMINO">
+                        </div>
+                        <div class="footer-col-1_addres">
+                            <p>268 St, South New York/NY 98944, United States
+                            </p>
+                            <a href="tel:222-1800-2628">+222-1800-2628</a>
+                            <a href="mailto:blueskytechcompany@gmail.com">blueskytechcompany@gmail.com</a>
+                            <ul class="contacts-social">
+                                <li class="contact-item">
+                                    <a href="#" target="_blank">
+                                        <img src="./img/i1.svg" alt="twitter">
+                                    </a>
+                                </li>
+                                <li class="contact-item">
+                                    <a href="#" target="_blank">
+                                        <img src="./img/i2.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="contact-item">
+                                    <a href="#" target="_blank">
+                                        <img src="./img/i3.svg"
+                                            alt="instargram">
+                                    </a>
+                                </li>
+                                <li class="contact-item">
+                                    <a href="#" target="_blank">
+                                        <img src="./img/i4.svg" alt="youtube">
+                                    </a>
+                                </li>
+                                <li class="contact-item">
+                                    <a href="#" target="_blank">
+                                        <img src="./img/i5.svg" alt="tiktok">
+                                    </a>
+                                </li>
+                                <li class="contact-item">
+                                    <a href="#" target="_blank">
+                                        <img src="./img/i6.svg" alt="social">
+                                    </a>
+                                </li>
+                                <li class="contact-item">
+                                    <a href="#" target="_blank">
+                                        <img src="./img/i7.svg" alt="social">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3 class="footer-title">Customer Service</h3>
+                        <ul class="services">
+                            <li class="service-item"><a href="#">
+                                    Pricevacy policy
+                                </a></li>
+                            <li class="service-item"><a href="#">
+                                    Shiping & Return
+                                </a></li>
+                            <li class="service-item"><a href="#">
+                                    Term & Coditions
+                                </a></li>
+                            <li class="service-item"><a href="#">
+                                    Advanced Search
+                                </a></li>
+                            <li class="service-item"><a href="#">
+                                    Store Locations
+                                </a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-col-3">
+                        <h3 class="footer-title">Shop By Categories</h3>
+                        <ul class="footer_categorys">
+                            <li class="footer_category-item">
+                                <a href="#">Smartphone</a>
+                            </li>
+                            <li class="footer_category-item">
+                                <a href="#">
+                                    Headphones
+                                </a>
+                            </li>
+                            <li class="footer_category-item">
+                                <a href="#">Computer & Desktop</a>
+                            </li>
+                            <li class="footer_category-item">
+                                <a href="#">
+                                    Cameras & Photos
+                                </a>
+                            </li>
+                            <li class="footer_category-item">
+                                <a href="#">
+                                    Laptop & Ipad
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="pays-tablet">
+                            <li class="pay-item">
+                                <img src="./img/p1.png" alt="visa">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p2.png" alt="masterCard">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p3.png" alt="discover">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p4.png" alt="western union">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p5.png" alt="amex">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p6.png" alt="cirrus">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p7.png" alt="paypal">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3 class="footer-title">Sign Up to Newsletter</h3>
+                        <p class="footer-col-4_description">Enter your email
+                            address to get $10 off your first order and free
+                            shipping. Updates information on Sales and Offers.</p>
+                        <form action="#" method="get">
+                            <div class="email">
+                                <input id="email" type="email"
+                                    placeholder="Enter your email..." required>
+                            </div>
+                            <button class="btn-submit">
+                                Subscribe
+                            </button>
+                        </form>
+                        <ul class="contacts-social-mobile">
+                            <li class="contact-item">
+                                <a href="#" target="_blank">
+                                    <img src="./img/i1.svg" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="#" target="_blank">
+                                    <img src="./img/i2.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="#" target="_blank">
+                                    <img src="./img/i3.svg"
+                                        alt="instargram">
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="#" target="_blank">
+                                    <img src="./img/i4.svg" alt="youtube">
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="#" target="_blank">
+                                    <img src="./img/i5.svg" alt="tiktok">
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="#" target="_blank">
+                                    <img src="./img/i6.svg" alt="social">
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="#" target="_blank">
+                                    <img src="./img/i7.svg" alt="social">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="pays-mobile">
+                            <li class="pay-item">
+                                <img src="./img/p1.png" alt="visa">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p2.png" alt="masterCard">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p3.png" alt="discover">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p4.png" alt="western union">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p5.png" alt="amex">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p6.png" alt="cirrus">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p7.png" alt="paypal">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom_col-1">
+                        <a class="footer-bottom_col-1-item" href="#">
+                            <span class="footer-bottom_col-1-item_text">English</span>
+                            <span class="footer-bottom_col-1-item_icon">
+                                <img src="./img/arrow-down.svg" alt="arrow
+                                    down">
+                            </span>
+                        </a>
+                        <a class="footer-bottom_col-1-item" href="#">
+                            <span class="footer-bottom_col-1-item_text">United
+                                States (USD $)</span>
+                            <span class="footer-bottom_col-1-item_icon">
+                                <img src="./img/arrow-down.svg" alt="arrow
+                                    down">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="footer-bottom_col-2">
+                        <span>© 2022 Umino Store. All Rights Reserved.</span>
+                    </div>
+                    <div class="footer-bottom_col-3">
+                        <ul class="pays">
+                            <li class="pay-item">
+                                <img src="./img/p1.png" alt="visa">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p2.png" alt="masterCard">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p3.png" alt="discover">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p4.png" alt="western union">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p5.png" alt="amex">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p6.png" alt="cirrus">
+                            </li>
+                            <li class="pay-item">
+                                <img src="./img/p7.png" alt="paypal">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

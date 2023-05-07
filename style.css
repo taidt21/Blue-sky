@@ -1,0 +1,120 @@
+:root {
+    --title-color: #111111;
+    --des-color: #555555;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+span {
+    display: block;
+}
+
+html {
+    font-family: general, 'Sans-serif';
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container {
+    max-width: 1410px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+input, textarea, button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: block;
+}
+
+.title {
+
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 49px;
+    color: var(--title-color);
+    text-align: center;
+
+}
+
+.description {
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: var(--des-color);
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+@media(max-width:576px) {
+    .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+
+@font-face {
+    font-family: general;
+    src: url('./font/GeneralSans-Extralight.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: general;
+    src: url('./font/GeneralSans-Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: general;
+    src: url('./font/GeneralSans-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: general;
+    src: url('./font/GeneralSans-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: general;
+    src: url('./font/GeneralSans-Semibold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: general;
+    src: url('./font/GeneralSans-Bold.otf');
+    font-weight: 700;
+}
